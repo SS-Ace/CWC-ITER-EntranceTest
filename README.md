@@ -13,3 +13,5 @@ It contains the solutions to Coding Wizard Club's entrance test.
    8. Write a program to solve -2x2=5x+3.
    9. Write a program to reverse a string.
    10. Write a program that accepts an integer (n) and computes the value of n+nn+nnn.
+   
+ Entrance test problems referred from here: https://github.com/Coding-Wizard-ITER/JoinUs
