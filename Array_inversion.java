@@ -1,4 +1,4 @@
-
+//Q.5
 public class Array_inversion {
 	
 	public static int inversion(int arr[]) {
