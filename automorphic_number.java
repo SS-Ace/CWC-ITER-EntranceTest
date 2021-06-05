@@ -14,7 +14,6 @@ public class automorphic_number {
 		}
 		
 		number = (int)Math.pow(10.0, (double)count);
-		
 		int res = number2 % number;
 		
 		if(res == num) {
