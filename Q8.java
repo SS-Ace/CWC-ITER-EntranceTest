@@ -2,8 +2,10 @@
 public class Q8 {
 
 	public static void main(String[] args) {
-	    //2*(x^2)=5*x+3  
+		
+	        //2*(x^2)=5*x+3  
 		//2 * (x^2) + (-5 * x) - 3 = 0
+		//using discriminant(Quadratic equation)
 		double x, a = 2, b = -5, c = -3;
 		
 		double d = (Math.pow(b,2)-(4 * a * c));
