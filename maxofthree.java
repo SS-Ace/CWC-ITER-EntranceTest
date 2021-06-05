@@ -34,7 +34,6 @@ public class maxofthree {
 		int a = -1, b = 0, c = 1;
 		System.out.println(max(a,b,c));
 		
-
-	}
+ 	}
 
 }
