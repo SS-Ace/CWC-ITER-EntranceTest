@@ -1,14 +1,24 @@
 import java.util.Scanner;
 public class Q10 {
 	
-	public static int solve(int n) {
+	public static int solve(String num) {
 		
-	int n1 = n;
-	int n2 = (n * 10) + n;
-	int n3 = (n * 10 * 10)+n2;
+		String n = "";
+		String number = "";
+		int sum = 0;
+		int i = 1;
+		while(i <= 3) {
+			
+			
+		    number = number + num;
+		    n = number;
+		    sum = sum + Integer.parseInt(n);
+		    n = "";
+		    i++;   
+			
+		}
 	
-	return n1 + n2 + n3;
-		
+		return sum;
 		
 	}
 
@@ -16,11 +26,11 @@ public class Q10 {
 	
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any number: ");
-		int n = sc.nextInt();
-		
-		System.out.println("Output: "+solve(n));
+		String num = sc.nextLine();
+		System.out.println("Output: "+solve(num));
 		sc.close();
 	
-    	}
+    
+	}
 
 }
