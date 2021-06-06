@@ -9,7 +9,6 @@ public class Q10 {
 		int i = 1;
 		while(i <= 3) {
 			
-			
 		    number = number + num;
 		    n = number;
 		    sum = sum + Integer.parseInt(n);
